@@ -1,0 +1,26 @@
+{
+    "name": "com.litho.sdk",
+    "version": "0.6.1",
+    "displayName": "Litho Beta SDK",
+    "description": "The Litho Beta SDK provides plugins for connecting to the Litho hardware, as well as pointer interaction presets (demonstrated by a showcase scene, which also shows how to use Litho in AR).",
+    "unity": "2019.3",
+    "unityRelease": "0f3",
+    "dependencies": {
+        "com.unity.xr.arfoundation": "3.1.0-preview.1",
+        "com.unity.xr.arsubsystems": "3.1.0-preview.1"
+    },
+    "keywords": [
+        "litho",
+        "beta",
+        "sdk",
+        "xr",
+        "ar",
+        "augmented",
+        "reality"
+    ],
+    "author": {
+        "name": "Litho",
+        "email": "support@litho.cc",
+        "url": "https://www.litho.cc"
+    }
+}

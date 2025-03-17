@@ -1,0 +1,710 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &914930913621229703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914930913621229702}
+  - component: {fileID: 3340524386229412121}
+  m_Layer: 0
+  m_Name: HapticEffects
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914930913621229702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914930913621229703}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.4, z: 4}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 914930915047551234}
+  - {fileID: 914930915477084741}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3340524386229412121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914930913621229703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e5bd067eb9246d598863061e8a86f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _rotationMode: 1
+  _flipForwardDirection: 1
+  _approachRate: 0.05
+--- !u!1 &914930915047551235
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914930915047551234}
+  m_Layer: 0
+  m_Name: TopRow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914930915047551234
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914930915047551235}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.75, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7524589142310211181}
+  - {fileID: 7524589142190599591}
+  - {fileID: 7524589142264759999}
+  - {fileID: 7524589142855533452}
+  - {fileID: 7524589143073526334}
+  m_Father: {fileID: 914930913621229702}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &914930915477084738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 914930915477084741}
+  m_Layer: 0
+  m_Name: BottomRow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &914930915477084741
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 914930915477084738}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 7524589143336516509}
+  - {fileID: 7524589141511594316}
+  - {fileID: 7524589143238677475}
+  - {fileID: 7524589141458617284}
+  - {fileID: 7524589142230242168}
+  m_Father: {fileID: 914930913621229702}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &914930913728958947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915477084741}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerBuzz
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 47
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512445840136792049, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 907484831227031553, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616799958771112221, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589141458617284 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930913728958947}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930913802908523
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915477084741}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerBump
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512445840136792049, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 907484831227031553, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616799958771112221, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589141511594316 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930913802908523}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930914433466719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915477084741}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerAlert
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512445840136792049, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 907484831227031553, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616799958771112221, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589142230242168 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930914433466719}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930914465267584
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915047551234}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerPulsing
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 52
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589142190599591 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930914465267584}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930914532938904
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915047551234}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerRampUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 82
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589142264759999 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930914532938904}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930914614107210
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915047551234}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerTick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589142310211181 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930914614107210}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930915142783403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915047551234}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerRampDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 94
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.25
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589142855533452 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930915142783403}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930915327148057
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915047551234}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerPattern
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[1]
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[2]
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[3]
+      value: 58
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[4]
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589143073526334 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930915327148057}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930915429384644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915477084741}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerTripleClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512445840136792049, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 907484831227031553, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616799958771112221, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589143238677475 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930915429384644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &914930915608947130
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 914930915477084741}
+    m_Modifications:
+    - target: {fileID: 7150225561385917314, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Name
+      value: HapticTriggerClick
+      objectReference: {fileID: 0}
+    - target: {fileID: 7267292301571104623, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: _effectTypes.Array.data[0]
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2512445840136792049, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 907484831227031553, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6616799958771112221, guid: 7317f0dc8b1f24dab80611d310c997bf,
+        type: 3}
+      propertyPath: m_Anchor
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7317f0dc8b1f24dab80611d310c997bf, type: 3}
+--- !u!4 &7524589143336516509 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7268468007288017447, guid: 7317f0dc8b1f24dab80611d310c997bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 914930915608947130}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,15 @@
+{
+    "name": "LithoDemoAssembly",
+    "references": [
+        "GUID:2467333d38a3b4eec8ad28a2d5a6861f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
