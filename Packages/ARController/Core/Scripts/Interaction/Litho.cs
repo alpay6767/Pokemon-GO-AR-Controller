@@ -211,7 +211,7 @@ namespace LITHO
 #if UNITY_IOS && !UNITY_EDITOR
         private const string PLUGIN_NAME = "__Internal";
 #else
-        private const string PLUGIN_NAME = "Litho";
+        private const string PLUGIN_NAME = "ARController";
 #endif
 
         [DllImport(PLUGIN_NAME)]
